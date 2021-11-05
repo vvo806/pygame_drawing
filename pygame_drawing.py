@@ -29,6 +29,9 @@ pygame.draw.line(displaysurf, BLUE, (150, 130), (130, 170)) #coordinate points (
 pygame.draw.line(displaysurf, BLUE, (150, 130), (170, 170))
 pygame.draw.line(displaysurf, GREEN, (130, 170), (170, 170))
 pygame.draw.circle(displaysurf, BLACK, (100,50), 30)
+pygame.draw.circle(displaysurf, BLACK, (200,50), 30)
+pygame.draw.rect(displaysurf, RED, (100, 200, 100, 50), 2) #(x point of top left corner, y point of top left corner, length , how tall is it) how think outline)
+pygame.draw.rect(displaysurf, BLACK, (110, 260, 80, 5)) #no other number after = fill in shape
 
 # game loop
 while True:
